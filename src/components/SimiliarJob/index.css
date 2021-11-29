@@ -1,0 +1,93 @@
+.similiar-job-link {
+  text-decoration: none;
+}
+.similiar-job-details {
+  background-color: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 25px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .similiar-job-details {
+    width: 45%;
+    max-width: 500px;
+  }
+}
+
+.company-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-icon {
+  width: 50px;
+  height: 60px;
+}
+
+.similiar-job-title-container {
+  padding-left: 14px;
+  font-family: 'Roboto';
+}
+
+.similiar-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.similiar-job-title {
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.rating-icon {
+  width: 20px;
+  height: 20px;
+  color: #fbbf24;
+}
+
+.rating {
+  padding-left: 7px;
+  color: #ffffff;
+}
+
+.similiar-description-title {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.similiar-job-description {
+  padding-top: 0;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.similiar-job-place-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.similiar-place-internship {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.location-job-icon {
+  width: 20px;
+  height: 20px;
+  color: #cbd5e1;
+}
